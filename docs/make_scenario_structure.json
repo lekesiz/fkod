@@ -1,0 +1,294 @@
+{
+  "scenario": {
+    "name": "F-Kod Fıtrat Keşif Otomasyon Akışı",
+    "description": "Tally.so form → Make.com → ChatGPT → PDF → SendGrid e-posta",
+    "version": "1.0",
+    "created": "2026-02-20",
+    "modules": [
+      {
+        "id": 1,
+        "name": "Tally.so Webhook Trigger",
+        "type": "trigger",
+        "app": "Webhooks",
+        "action": "Custom webhook",
+        "description": "Form gönderimini yakala",
+        "input": {
+          "user_name": "string",
+          "user_email": "string",
+          "user_age": "number",
+          "answers": "array[string]"
+        },
+        "output": {
+          "user_name": "string",
+          "user_email": "string",
+          "user_age": "number",
+          "answers": "array[string]"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Arketip Hesaplama",
+        "type": "action",
+        "app": "JavaScript",
+        "action": "Execute code",
+        "description": "Test cevaplarından arketip belirle",
+        "input": {
+          "answers": "array[string]"
+        },
+        "output": {
+          "archetype_code": "string (A+B, A+C, vb.)",
+          "primary_fitrat": "string (A, B, C, D)",
+          "secondary_fitrat": "string (A, B, C, D)",
+          "scores": "object"
+        },
+        "code": "function calculateArchetype(answers) { /* ... */ }"
+      },
+      {
+        "id": 3,
+        "name": "ChatGPT Rapor Oluştur",
+        "type": "action",
+        "app": "OpenAI",
+        "action": "Create message",
+        "description": "Kişiselleştirilmiş rapor oluştur",
+        "input": {
+          "user_name": "string",
+          "user_age": "number",
+          "archetype_code": "string",
+          "answers": "array[string]"
+        },
+        "output": {
+          "report_content": "string (Markdown format)"
+        },
+        "config": {
+          "model": "gpt-4",
+          "temperature": 0.7,
+          "max_tokens": 2000
+        }
+      },
+      {
+        "id": 4,
+        "name": "HTML'e Dönüştür",
+        "type": "action",
+        "app": "JavaScript",
+        "action": "Execute code",
+        "description": "Markdown raporu HTML'e dönüştür",
+        "input": {
+          "report_content": "string (Markdown)"
+        },
+        "output": {
+          "report_html": "string (HTML)"
+        }
+      },
+      {
+        "id": 5,
+        "name": "PDF Oluştur",
+        "type": "action",
+        "app": "HTTP",
+        "action": "Make a request",
+        "description": "HTML raporu PDF'ye dönüştür",
+        "input": {
+          "report_html": "string (HTML)"
+        },
+        "output": {
+          "pdf_url": "string",
+          "pdf_content": "binary"
+        },
+        "config": {
+          "url": "https://api.html2pdf.com/convert",
+          "method": "POST",
+          "headers": {
+            "Authorization": "Bearer {API_KEY}"
+          }
+        }
+      },
+      {
+        "id": 6,
+        "name": "SendGrid E-posta Gönder",
+        "type": "action",
+        "app": "SendGrid",
+        "action": "Send an email",
+        "description": "Raporu kullanıcıya gönder",
+        "input": {
+          "user_email": "string",
+          "user_name": "string",
+          "archetype_code": "string",
+          "pdf_content": "binary"
+        },
+        "output": {
+          "email_sent": "boolean",
+          "message_id": "string"
+        },
+        "config": {
+          "from": "rapor@fkod.org",
+          "from_name": "F-Kod Takımı",
+          "subject": "F-Kod Fıtrat Keşif Raporun Hazır! 🌟"
+        }
+      },
+      {
+        "id": 7,
+        "name": "Veritabanına Kaydet",
+        "type": "action",
+        "app": "Google Sheets",
+        "action": "Add a row",
+        "description": "Kullanıcı verilerini kaydet",
+        "input": {
+          "user_name": "string",
+          "user_email": "string",
+          "user_age": "number",
+          "archetype_code": "string",
+          "timestamp": "string",
+          "status": "string"
+        },
+        "output": {
+          "row_added": "boolean"
+        },
+        "config": {
+          "spreadsheet_id": "{SHEET_ID}",
+          "range": "Responses!A:F"
+        }
+      },
+      {
+        "id": 8,
+        "name": "Hata Yönetimi",
+        "type": "error_handler",
+        "description": "Hata durumunda kullanıcıya bildir",
+        "actions": [
+          {
+            "name": "Hata E-postası Gönder",
+            "app": "SendGrid",
+            "to": "{user_email}",
+            "subject": "Rapor Oluşturmada Hata"
+          },
+          {
+            "name": "Admin'e Bildir",
+            "app": "SendGrid",
+            "to": "admin@fkod.org",
+            "subject": "F-Kod Otomasyon Hatası"
+          }
+        ]
+      }
+    ],
+    "connections": [
+      {
+        "from": 1,
+        "to": 2,
+        "data": "answers"
+      },
+      {
+        "from": 2,
+        "to": 3,
+        "data": "archetype_code, user_name, user_age"
+      },
+      {
+        "from": 3,
+        "to": 4,
+        "data": "report_content"
+      },
+      {
+        "from": 4,
+        "to": 5,
+        "data": "report_html"
+      },
+      {
+        "from": 5,
+        "to": 6,
+        "data": "pdf_content"
+      },
+      {
+        "from": 1,
+        "to": 6,
+        "data": "user_email, user_name"
+      },
+      {
+        "from": 6,
+        "to": 7,
+        "data": "success"
+      },
+      {
+        "from": 1,
+        "to": 7,
+        "data": "user_name, user_email, user_age"
+      },
+      {
+        "from": 2,
+        "to": 7,
+        "data": "archetype_code"
+      }
+    ],
+    "variables": {
+      "api_keys": {
+        "openai_api_key": "sk-...",
+        "sendgrid_api_key": "SG...",
+        "html2pdf_api_key": "..."
+      },
+      "sheet_ids": {
+        "responses_sheet": "{SHEET_ID}"
+      },
+      "email_config": {
+        "from_email": "rapor@fkod.org",
+        "from_name": "F-Kod Takımı",
+        "reply_to": "info@fkod.org"
+      }
+    },
+    "testing": {
+      "test_cases": [
+        {
+          "name": "Başarılı Form Gönderimi",
+          "input": {
+            "user_name": "Test Kullanıcı",
+            "user_email": "test@example.com",
+            "user_age": 18,
+            "answers": ["A", "B", "C", "D", "A", "C", "A", "C", "A", "C"]
+          },
+          "expected_output": {
+            "email_sent": true,
+            "row_added": true,
+            "archetype_code": "C+D"
+          }
+        },
+        {
+          "name": "Eksik Veri",
+          "input": {
+            "user_name": "Test",
+            "user_email": "",
+            "user_age": null,
+            "answers": ["A"]
+          },
+          "expected_output": {
+            "error": true,
+            "error_message": "Eksik veriler"
+          }
+        },
+        {
+          "name": "API Hatası",
+          "input": {
+            "user_name": "Test",
+            "user_email": "test@example.com",
+            "user_age": 18,
+            "answers": ["A", "B", "C", "D", "A", "C", "A", "C", "A", "C"]
+          },
+          "error_scenario": "OpenAI API down",
+          "expected_output": {
+            "error": true,
+            "retry": true
+          }
+        }
+      ]
+    },
+    "monitoring": {
+      "metrics": [
+        "webhook_triggers_per_day",
+        "successful_reports_generated",
+        "failed_reports",
+        "email_delivery_rate",
+        "average_processing_time"
+      ],
+      "alerts": [
+        "High error rate (>5%)",
+        "Email delivery failure",
+        "API rate limit exceeded",
+        "Database connection error"
+      ]
+    }
+  }
+}
