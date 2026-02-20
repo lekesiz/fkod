@@ -1,0 +1,296 @@
+{
+  "test_bilgileri": {
+    "baslik": "F-Kod Fıtrat Keşif Testi",
+    "aciklama": "14-24 yaş gençler için senaryo bazlı fıtrat keşif testi",
+    "sure": "3-4 dakika",
+    "soru_sayisi": 10
+  },
+  "sorular": [
+    {
+      "id": 1,
+      "kategori": "Kriz Yönetimi",
+      "baslik": "Dönem Ödevi Krizi",
+      "metin": "Lisede/Üniversitede çok önemli bir 'Grup Projesi' ödevi verildi. Teslim tarihine çok az kaldı. Ekip arkadaşların panik halinde, ortada hiçbir şey yok ve herkes birbirine bakıyor. İlk tepkin ne olur?",
+      "secenekler": [
+        {
+          "harf": "A",
+          "metin": "Hemen bir yapılacaklar listesi (Notion/Excel vb.) açar, işleri mantıklı parçalara böler ve kimin ne yapacağını organize ederim.",
+          "fitrat": "sistem"
+        },
+        {
+          "harf": "B",
+          "metin": "Önce gruptaki stresi azaltmaya çalışır, 'Arkadaşlar hallederiz, birbirimizi kırmayalım' diyerek ekibin moralini ve uyumunu toparlarım.",
+          "fitrat": "kalp"
+        },
+        {
+          "harf": "C",
+          "metin": "Herkesin aklına gelen o sıradan, sıkıcı fikirleri çöpe atıp, projeyi kurtaracak o 'derin ve farklı' ana fikri (konsepti) bulmaya odaklanırım.",
+          "fitrat": "mana"
+        },
+        {
+          "harf": "D",
+          "metin": "Uzun uzun plan yapıp tartışmaktan daralırım. 'Ben şu kısmı yapmaya başlıyorum, siz de şuradan girin' der, hemen aksiyona geçerim.",
+          "fitrat": "aksiyon"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "kategori": "Dijital Tüketim",
+      "baslik": "Zihnin Nereden Besleniyor?",
+      "metin": "Gece geç saat... Telefon elinde YouTube, TikTok veya Instagram'da saatlerce kayboldun. Algoritmanın önüne en çok düşürdüğü (ve senin de sıkılmadan izlediğin) içerik türü genelde hangisidir?",
+      "secenekler": [
+        {
+          "harf": "A",
+          "metin": "'Bu sistem nasıl çalışır?', teknolojik incelemeler, strateji oyunları veya karmaşık olayların detaylı, mantıksal analizleri.",
+          "fitrat": "sistem"
+        },
+        {
+          "harf": "B",
+          "metin": "İnsanların gerçek hayat hikayeleri, psikolojik analizler, kişisel gelişim serüvenleri veya samimi vloglar.",
+          "fitrat": "kalp"
+        },
+        {
+          "harf": "C",
+          "metin": "Evrenin sırları, felsefi tartışmalar, filmlerin perde arkasındaki gizli alt metinler veya farklı bir estetiği olan niş videolar.",
+          "fitrat": "mana"
+        },
+        {
+          "harf": "D",
+          "metin": "Hızlı tempolu meydan okumalar (challenge), girişimcilik/başarı hikayeleri, ekstrem sporlar ve adrenalin dolu içerikler.",
+          "fitrat": "aksiyon"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "kategori": "Kriz ve Bilinmezlik",
+      "baslik": "Escape Room / Kamp",
+      "metin": "Arkadaş grubunla zorlu bir 'Kaçış Oyununa' (Escape Room) veya hiç bilmediğiniz bir doğa kampına gittiniz ve işler ters gitti, kilitli kaldınız/kayboldunuz! O an içinden hangi rolü oynamak gelir?",
+      "secenekler": [
+        {
+          "harf": "A",
+          "metin": "Zihnimi toplar, rasyonel ipuçlarına (şifreler, harita mantığı, kurallar) bakarak en mantıklı çıkış rotasını/çözüm yolunu hesaplarım.",
+          "fitrat": "sistem"
+        },
+        {
+          "harf": "B",
+          "metin": "Grupta korkan veya gerilen biri var mı diye bakar, kimsenin paniğe kapılmaması için onlara duygusal destek olur ortamı yumuşatırım.",
+          "fitrat": "kalp"
+        },
+        {
+          "harf": "C",
+          "metin": "Panik yapmak yerine olayın gizemine kapılır, 'Bunun arkasında nasıl bir kurgu var acaba?' diyerek kimsenin fark etmediği gizli detayları incelerim.",
+          "fitrat": "mana"
+        },
+        {
+          "harf": "D",
+          "metin": "Liderliği elime alır, 'Beni takip edin, şuradan bir yol bulacağız!' diyerek inisiyatif kullanır ve risk alarak ilk kapıyı/yolu zorlarım.",
+          "fitrat": "aksiyon"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "kategori": "Daralma Noktası",
+      "baslik": "Fıtratın Daralma Noktası",
+      "metin": "Gelecekte bir iş teklifi aldın. Maaşı ve statüsü harika. Ama içerideki ortamın şöyle olduğunu öğrendin. Hangi durum senin fıtratını en çok bozar ve 'Ben burada yapamam' dedirtir?",
+      "secenekler": [
+        {
+          "harf": "A",
+          "metin": "Mantıksız kararların alındığı, liyakatsiz, kuralsız ve her şeyin plansız bir karmaşa içinde yürüdüğü bir ortam.",
+          "fitrat": "sistem"
+        },
+        {
+          "harf": "B",
+          "metin": "İnsanların birbirinin kuyusunu kazdığı, soğuk, acımasız ve sürekli bir rekabetin/dedikodunun olduğu sevgisiz bir ortam.",
+          "fitrat": "kalp"
+        },
+        {
+          "harf": "C",
+          "metin": "Sürekli aynı yüzeysel şeylerin konuşulduğu, sana yeni bir vizyon katmayan, sıradan ve hiçbir derinliği olmayan vizyonsuz bir ortam.",
+          "fitrat": "mana"
+        },
+        {
+          "harf": "D",
+          "metin": "Bütün gün masa başında, dört duvar arasına kilitlenip hiçbir risk veya inisiyatif alamadan, hep aynı rutinleri yaptığın aşırı monoton bir ortam.",
+          "fitrat": "aksiyon"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "kategori": "Oyun Kültürü",
+      "baslik": "E-Spor ve Oyun Dünyası",
+      "metin": "Arkadaşlarınla rekabetçi bir online oyundasın (Valorant, LoL vb.) veya stratejik bir kutu oyunu oynuyorsunuz. Takım içindeki 'en doğal' rolün hangisi olur?",
+      "secenekler": [
+        {
+          "harf": "A",
+          "metin": "Haritayı, ekonomiyi ve kuralları analiz edip takımın taktiğini çizen 'Stratejist'.",
+          "fitrat": "sistem"
+        },
+        {
+          "harf": "B",
+          "metin": "Takım arkadaşlarını koruyan, can (heal) basan ve kavgayı önleyip ekibi bir arada tutan 'Destek (Support)'.",
+          "fitrat": "kalp"
+        },
+        {
+          "harf": "C",
+          "metin": "Oyunun ana hedefinden ziyade gizli mekaniklerini keşfeden, hikayesini (lore) inceleyen veya tuhaf taktikler deneyen 'Kâşif'.",
+          "fitrat": "mana"
+        },
+        {
+          "harf": "D",
+          "metin": "Hiç beklemeden ilk savaşı başlatan, risk alıp cepheye en önden atılan ve refleksleriyle şaşırtan 'Öncü/Taşıyıcı'.",
+          "fitrat": "aksiyon"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "kategori": "Sosyal Kriz",
+      "baslik": "Arkadaş Grubunda Çatışma",
+      "metin": "Grupta çok sevdiğin iki arkadaşın aniden ciddi bir kavgaya tutuştu ve ortam çok gerildi. İlk içgüdüsel tepkin ne olur?",
+      "secenekler": [
+        {
+          "harf": "A",
+          "metin": "Olayı kişiselleştirmeden tarafları dinler, kimin mantıklı ve haklı olduğunu objektif kanıtlarla bulmaya çalışırım.",
+          "fitrat": "sistem"
+        },
+        {
+          "harf": "B",
+          "metin": "Haklı-haksız meselesini bir kenara bırakırım. İkisinin de kalbi kırılmasın diye araya girer, ortamı yumuşatıp grubu bir arada tutmaya çabalarım.",
+          "fitrat": "kalp"
+        },
+        {
+          "harf": "C",
+          "metin": "Kavgaya direkt karışmam. Sessizce izler, bu öfke patlamasının altındaki gerçek psikolojik nedeni ve ego savaşını dışarıdan analiz ederim.",
+          "fitrat": "mana"
+        },
+        {
+          "harf": "D",
+          "metin": "'Arkadaşlar yeter, kafamızı şişirdiniz, uzatmayın!' diyerek konuya lider/otoriter bir şekilde müdahale eder ve tartışmayı kestirip atarım.",
+          "fitrat": "aksiyon"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "kategori": "Öğrenme Stili",
+      "baslik": "Yeni Bir Beceri",
+      "metin": "Kendini geliştirmek için sıfırdan zorlu bir yetenek (örneğin yazılım dili, video kurgu veya bir enstrüman) öğrenmeye karar verdin. Nasıl başlarsın?",
+      "secenekler": [
+        {
+          "harf": "A",
+          "metin": "En yüksek puanlı ve detaylı eğitimi bulur, 1. bölümden son bölüme kadar atlamadan, not alarak sistematik bir sırayla izlerim.",
+          "fitrat": "sistem"
+        },
+        {
+          "harf": "B",
+          "metin": "Bunu tek başıma öğrenmek beni sıkar. Bir atölyeye katılır veya bilen bir arkadaşımdan bana göstermesini isterim, etkileşimle öğrenirim.",
+          "fitrat": "kalp"
+        },
+        {
+          "harf": "C",
+          "metin": "Sadece 'nasıl' yapıldığına değil, işin mantığına ve felsefesine dalarım. Klişe kuralları taklit etmek yerine kendi özgün tarzımı bulmaya çalışırım.",
+          "fitrat": "mana"
+        },
+        {
+          "harf": "D",
+          "metin": "Uzun eğitim videolarına tahammülüm yoktur. Programı veya enstrümanı açar, tuşlara basa basa, 'elimi kirleterek' pratik yoldan çözerim.",
+          "fitrat": "aksiyon"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "kategori": "İçerik Üretimi",
+      "baslik": "Dijital Vitrin",
+      "metin": "Diyelim ki bir sabah uyandın ve milyonlarca takipçisi olan bir içerik üreticisisin. Kanalının ana teması büyük ihtimalle ne olurdu?",
+      "secenekler": [
+        {
+          "harf": "A",
+          "metin": "'Bunu Nasıl Yaptım?' tarzında teknik eğitimler, sistem kurguları, teknoloji incelemeleri veya karmaşık konuları basitleştiren veri analizleri.",
+          "fitrat": "sistem"
+        },
+        {
+          "harf": "B",
+          "metin": "Sokaktaki insanlara yardım ettiğin iyilik projeleri, samimi vloglar, dertleşme yayınları ve takipçilerinle kurduğun güçlü bir aile ortamı.",
+          "fitrat": "kalp"
+        },
+        {
+          "harf": "C",
+          "metin": "Kimsenin aklına gelmeyen gizemlerin analizi, filmlerin gizli alt metinleri, derin felsefi sohbetler veya estetik değeri yüksek niş belgeseller.",
+          "fitrat": "mana"
+        },
+        {
+          "harf": "D",
+          "metin": "Sınırları zorlayan meydan okumalar (challenge), büyük ödüllü dinamik yarışmalar, sokak röportajları ve yüksek tempolu adrenalin videoları.",
+          "fitrat": "aksiyon"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "kategori": "Para ve Vizyon",
+      "baslik": "İlk Büyük Kazanç",
+      "metin": "Kendi emeğinle veya bir projeden hayatındaki ilk ciddi, büyük parayı kazandın. Banka hesabına baktığında içinden gelen 'ilk doğal dürtü' hangisi olur?",
+      "secenekler": [
+        {
+          "harf": "A",
+          "metin": "Gelecek için bir kısmını kenara ayırmak veya bana daha çok verim/para kazandıracak bir donanıma (kaliteli bir bilgisayar vb.) yatırım yapmak.",
+          "fitrat": "sistem"
+        },
+        {
+          "harf": "B",
+          "metin": "Aileme veya en yakın arkadaşlarıma güzel bir hediye almak, onlara harika bir yemek ısmarlamak ve bu sevinci onlarla paylaşmak.",
+          "fitrat": "kalp"
+        },
+        {
+          "harf": "C",
+          "metin": "Uzun zamandır hayalini kurduğum nadir bir kitaba, özel bir sanat/koleksiyon parçasına veya ilham verici niş bir eğitime harcamak.",
+          "fitrat": "mana"
+        },
+        {
+          "harf": "D",
+          "metin": "Hiç beklemeden aksiyona geçip bir seyahat bileti almak, ekstrem bir hobiye başlamak veya yeni bir girişim için anında sermaye yapmak.",
+          "fitrat": "aksiyon"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "kategori": "Enerji Yenileme",
+      "baslik": "Şarj Olma",
+      "metin": "Hafta sonu için yaptığın tüm planlar iptal oldu. Önünde tamamen boş, kimseye söz vermediğin koca bir gün var. Enerjini (şâkileni) yeniden toplamak için ne yaparsın?",
+      "secenekler": [
+        {
+          "harf": "A",
+          "metin": "Harika bir fırsat! Odama kapanıp masamı düzenler, ertelenmiş işlerimi bitirir ve gelecek haftanın verimli bir planını yaparım.",
+          "fitrat": "sistem"
+        },
+        {
+          "harf": "B",
+          "metin": "Sevdiğim insanları arar, onlarla bir kafede buluşur, saatlerce çay/kahve eşliğinde derin bağlar kurduğum, sıcak sohbetler ederim.",
+          "fitrat": "kalp"
+        },
+        {
+          "harf": "C",
+          "metin": "Kalabalıktan uzaklaşıp kendi 'mağarama' çekilirim. Sadece benim anladığım bir müziği açar, okur, çizer veya kendi iç dünyamın soyutluğunda kaybolurum.",
+          "fitrat": "mana"
+        },
+        {
+          "harf": "D",
+          "metin": "Evde durmak beni boğar! Hemen dışarı çıkar, daha önce gitmediğim bir yeri keşfeder, spora gider veya fiziksel olarak yorulacağım bir maceraya atılırım.",
+          "fitrat": "aksiyon"
+        }
+      ]
+    }
+  ],
+  "puanlama_sistemi": {
+    "A": "sistem",
+    "B": "kalp",
+    "C": "mana",
+    "D": "aksiyon"
+  }
+}

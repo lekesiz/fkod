@@ -1,0 +1,364 @@
+{
+  "arketipler": [
+    {
+      "kod": "A+B",
+      "isim": "Toplumsal Mimarlar",
+      "baskin_fitrat": "sistem",
+      "yardimci_fitrat": "kalp",
+      "kisa_aciklama": "Kuralları ve verimliliği, insanları mutlu etmek için kullanırlar. İnsani krizleri rasyonel sistemlerle çözerler.",
+      "ozellikler": [
+        "Sistematik düşünme ve planlama",
+        "Empati ve insan odaklılık",
+        "Adalet ve liyakat",
+        "Sürdürülebilir çözümler"
+      ],
+      "super_gucler": [
+        "İnsani Sistem Tasarımı: Hem verimli hem de insancıl sistemler kurarlar",
+        "Adil Liderlik: Kuralları insanları ezmek için değil, korumak için kullanırlar",
+        "Kriz Yönetimi: Duygusal krizleri mantıksal çözümlerle yönetirler"
+      ],
+      "kriptonitin": [
+        "Aşırı bürokratik ortamlar",
+        "İnsanları göz ardı eden sistemler",
+        "Duygusuz ve soğuk liderlik"
+      ],
+      "ideal_alanlar": [
+        "İnsan Kaynakları Yöneticisi",
+        "Okul Müdürü / Eğitim Yöneticisi",
+        "Şehir Plancısı",
+        "Sosyal Politika Uzmanı",
+        "Organizasyon Geliştirme Uzmanı"
+      ]
+    },
+    {
+      "kod": "A+C",
+      "isim": "Stratejik Filozoflar",
+      "baskin_fitrat": "sistem",
+      "yardimci_fitrat": "mana",
+      "kisa_aciklama": "Karmaşanın ve soyutluğun içindeki görünmez düzeni bulurlar. Hem derin düşünür hem de bunu formüle dökerler.",
+      "ozellikler": [
+        "Analitik ve derin düşünme",
+        "Soyut kavramları somutlaştırma",
+        "Stratejik planlama",
+        "Sistem tasarımı"
+      ],
+      "super_gucler": [
+        "Röntgen Görüşü: Karmaşık sistemlerin arkasındaki mantığı görürler",
+        "Stratejik Soyutlama: Derin fikirleri uygulanabilir sistemlere dönüştürürler",
+        "Vizyon Mimarisi: Geleceği tasarlayıp bugünden inşa ederler"
+      ],
+      "kriptonitin": [
+        "Yüzeysel ve sıradan işler",
+        "Vizyonsuz ve plansız ortamlar",
+        "Derinlikten yoksun ilişkiler"
+      ],
+      "ideal_alanlar": [
+        "Yazılım Mimarı",
+        "Veri Bilimcisi",
+        "Akademisyen / Araştırmacı",
+        "Strateji Danışmanı",
+        "Sistem Analisti"
+      ]
+    },
+    {
+      "kod": "A+D",
+      "isim": "Saha Komutanları",
+      "baskin_fitrat": "sistem",
+      "yardimci_fitrat": "aksiyon",
+      "kisa_aciklama": "Masa başında plan yapıp bırakmazlar, o kusursuz planı sahada bizzat ve hızla inşa ederler.",
+      "ozellikler": [
+        "Hızlı karar verme",
+        "Sistematik uygulama",
+        "Liderlik ve yönetim",
+        "Sonuç odaklılık"
+      ],
+      "super_gucler": [
+        "Taktiksel İcra: Planı hızla ve kusursuzca hayata geçirirler",
+        "Kriz Komutanlığı: Kaos anında soğukkanlı ve etkili liderlik yaparlar",
+        "Verimlilik Ustası: En kısa yoldan en iyi sonucu alırlar"
+      ],
+      "kriptonitin": [
+        "Aşırı teorik ve uygulama yoksunu ortamlar",
+        "Yavaş ve bürokratik süreçler",
+        "Eylemsizlik ve durağanlık"
+      ],
+      "ideal_alanlar": [
+        "Proje Yöneticisi",
+        "Cerrah",
+        "CEO / Genel Müdür",
+        "Operasyon Yöneticisi",
+        "Acil Durum Müdahale Ekibi"
+      ]
+    },
+    {
+      "kod": "B+A",
+      "isim": "Adil Rehberler",
+      "baskin_fitrat": "kalp",
+      "yardimci_fitrat": "sistem",
+      "kisa_aciklama": "Şefkati kurallarla dengelerler. İnsanlara yardım ederken adaletin şaşmadığı sürdürülebilir ekosistemler kurarlar.",
+      "ozellikler": [
+        "Empati ve anlayış",
+        "Adalet ve objektiflik",
+        "Sistematik yardım",
+        "Uzun vadeli düşünme"
+      ],
+      "super_gucler": [
+        "Dengeli Rehberlik: Hem kalple dinler hem de akılla yönlendirir",
+        "Adil Sistem Kurma: Herkese eşit fırsat tanıyan yapılar oluşturur",
+        "Sürdürülebilir Yardım: Balık vermek yerine balık tutmayı öğretir"
+      ],
+      "kriptonitin": [
+        "Adaletsiz ve kayırmacı sistemler",
+        "Duygusal manipülasyon",
+        "Kısa vadeli ve plansız yardımlar"
+      ],
+      "ideal_alanlar": [
+        "Psikolojik Danışman (PDR)",
+        "Sosyolog",
+        "Diplomat",
+        "Hukuk / Avukatlık",
+        "Sosyal Hizmet Uzmanı"
+      ]
+    },
+    {
+      "kod": "B+C",
+      "isim": "Ruhsal Şifacılar",
+      "baskin_fitrat": "kalp",
+      "yardimci_fitrat": "mana",
+      "kisa_aciklama": "İnsanın yüzündeki maskeyi değil, kalbindeki gizli yarayı görürler. İnanılmaz bir sezgi güçleri vardır.",
+      "ozellikler": [
+        "Derin empati",
+        "Sezgisel anlayış",
+        "Manevi derinlik",
+        "İyileştirme yeteneği"
+      ],
+      "super_gucler": [
+        "Ruhsal Röntgen: İnsanların söylemediği acıları görürler",
+        "Sezgisel Şifa: Mantıkla açıklanamayan ama işe yarayan yöntemler bulurlar",
+        "Derin Bağ Kurma: İnsanların kalbine dokunup gerçek değişim yaratırlar"
+      ],
+      "kriptonitin": [
+        "Yüzeysel ve samimiyetsiz ilişkiler",
+        "Duygusal olarak kapalı insanlar",
+        "Manevi derinlikten yoksun ortamlar"
+      ],
+      "ideal_alanlar": [
+        "Psikoterapist",
+        "Sanat Terapisti",
+        "Manevi Rehber / Din Görevlisi",
+        "Yaşam Koçu",
+        "Hospis Bakımı Uzmanı"
+      ]
+    },
+    {
+      "kod": "B+D",
+      "isim": "İlham Veren Motivatörler",
+      "baskin_fitrat": "kalp",
+      "yardimci_fitrat": "aksiyon",
+      "kisa_aciklama": "İnsanları severler ve onları eyleme geçirme konusunda doğuştan yeteneklidirler. Kitleleri peşinden sürüklerler.",
+      "ozellikler": [
+        "Karizmatik iletişim",
+        "Motivasyon yeteneği",
+        "Eylem odaklılık",
+        "Topluluk oluşturma"
+      ],
+      "super_gucler": [
+        "Kitle Enerjisi: İnsanları heyecanlandırıp harekete geçirirler",
+        "İlham Verme: Başkalarının içindeki potansiyeli ateşlerler",
+        "Topluluk Lideri: Güçlü ve sadık topluluklar oluştururlar"
+      ],
+      "kriptonitin": [
+        "Pasif ve enerjisiz ortamlar",
+        "Bireyci ve rekabetçi kültürler",
+        "İnsanlardan izole edilme"
+      ],
+      "ideal_alanlar": [
+        "STK Lideri",
+        "İletişim Uzmanı / Halkla İlişkiler",
+        "Yaşam Koçu",
+        "Öğretmen / Eğitmen",
+        "Topluluk Yöneticisi"
+      ]
+    },
+    {
+      "kod": "C+A",
+      "isim": "Hakikat Dedektifleri",
+      "baskin_fitrat": "mana",
+      "yardimci_fitrat": "sistem",
+      "kisa_aciklama": "Soyut kavramları, felsefeyi veya karmaşık teorileri alıp matematiksel/rasyonel bir temele oturturlar. Sırları çözerler.",
+      "ozellikler": [
+        "Derin analiz",
+        "Soyut düşünme",
+        "Sistematik araştırma",
+        "Hakikat arayışı"
+      ],
+      "super_gucler": [
+        "Röntgen Görüşü: Olayların arkasındaki gizli yapıyı görürler",
+        "Stratejik Soyutlama: Derin fikirleri mantıksal sistemlere dönüştürürler",
+        "Sessiz Liderlik: Vizyonları sayesinde doğal lider olurlar"
+      ],
+      "kriptonitin": [
+        "Yüzeysel ve anlamsız işler",
+        "Mantıksız ve vizyonsuz ortamlar",
+        "Derinlikten yoksun ilişkiler"
+      ],
+      "ideal_alanlar": [
+        "Yazılım ve Sistem Mimarlığı",
+        "Araştırmacı Yazar",
+        "Strateji ve Veri Bilimi",
+        "Teorik Bilimler (Fizik, Sosyoloji)",
+        "Felsefe ve Düşünce Tarihi"
+      ]
+    },
+    {
+      "kod": "C+B",
+      "isim": "Anlam Ozanları",
+      "baskin_fitrat": "mana",
+      "yardimci_fitrat": "kalp",
+      "kisa_aciklama": "Kendi yalnızlıklarında ürettikleri anlamı, başkalarının hayatını aydınlatmak için bir meşale gibi kullanırlar. Sessizce dokunurlar.",
+      "ozellikler": [
+        "Derin içgörü",
+        "Empatik anlayış",
+        "Yaratıcı ifade",
+        "Manevi derinlik"
+      ],
+      "super_gucler": [
+        "Anlam Yaratma: Sıradan olaylardan derin anlamlar çıkarırlar",
+        "Sessiz Dokunuş: Gösterişsiz ama kalıcı etkiler bırakırlar",
+        "Ruhsal Köprü: İnsanların iç dünyasına ulaşan eserler üretirler"
+      ],
+      "kriptonitin": [
+        "Yüzeysel ve gürültülü ortamlar",
+        "Anlamsız ve mekanik işler",
+        "Derinlikten yoksun ilişkiler"
+      ],
+      "ideal_alanlar": [
+        "Bağımsız Yönetmen",
+        "Edebiyatçı / Şair",
+        "Mentor / Yaşam Koçu",
+        "Sanat Küratörü",
+        "Felsefe Öğretmeni"
+      ]
+    },
+    {
+      "kod": "C+D",
+      "isim": "Ezber Bozan Kâşifler",
+      "baskin_fitrat": "mana",
+      "yardimci_fitrat": "aksiyon",
+      "kisa_aciklama": "Eski kuralları yıkayıp yeni bir vizyon inşa etmek için sahaya inerler. Alışılagelmişin dışında yepyeni yollar icat ederler.",
+      "ozellikler": [
+        "Yenilikçi düşünme",
+        "Cesaret ve risk alma",
+        "Vizyon sahibi",
+        "Deneysellik"
+      ],
+      "super_gucler": [
+        "Paradigma Kırıcı: Eski sistemleri sorgulayıp yeni modeller kurarlar",
+        "Cesur Vizyon: Kimsenin görmediği geleceği hayal edip inşa ederler",
+        "Yaratıcı Yıkım: Köhne yapıları yıkıp yerlerine yeniyi koyarlar"
+      ],
+      "kriptonitin": [
+        "Gelenekçi ve değişime kapalı ortamlar",
+        "Risk almayı engelleyen kurallar",
+        "Yaratıcılığı kısıtlayan sistemler"
+      ],
+      "ideal_alanlar": [
+        "Avangard Sanatçı",
+        "Çığır Açan Girişimci",
+        "Deneysel Bilim İnsanı",
+        "Radikal Tasarımcı",
+        "Sosyal İnovasyon Uzmanı"
+      ]
+    },
+    {
+      "kod": "D+A",
+      "isim": "Taktiksel İcracılar",
+      "baskin_fitrat": "aksiyon",
+      "yardimci_fitrat": "sistem",
+      "kisa_aciklama": "Teoriyle vakit kaybetmez, en mantıklı taktiği kurup hedefe kilitlenirler. Verimlilik ve hız onların göbek adıdır.",
+      "ozellikler": [
+        "Hızlı karar verme",
+        "Taktiksel düşünme",
+        "Verimlilik odaklılık",
+        "Sonuç odaklılık"
+      ],
+      "super_gucler": [
+        "Hızlı İcra: En kısa sürede en iyi sonucu alırlar",
+        "Taktiksel Zeka: Anında en etkili stratejiyi bulurlar",
+        "Verimlilik Ustası: Kaynak israfı yapmadan maksimum çıktı alırlar"
+      ],
+      "kriptonitin": [
+        "Aşırı teorik ve yavaş ortamlar",
+        "Bürokratik engeller",
+        "Eylemsizlik ve durağanlık"
+      ],
+      "ideal_alanlar": [
+        "Finans / Borsa Uzmanı",
+        "Acil Durum Yöneticisi",
+        "Operasyon Müdürü",
+        "Askeri Strateji Uzmanı",
+        "Kriz Yönetimi Danışmanı"
+      ]
+    },
+    {
+      "kod": "D+B",
+      "isim": "Saha Kahramanları",
+      "baskin_fitrat": "aksiyon",
+      "yardimci_fitrat": "kalp",
+      "kisa_aciklama": "Adaletsizliğe veya haksızlığa karşı sahada ilk sesi çıkaran, insanları birleştiren koruyucu ve cesur karakterlerdir.",
+      "ozellikler": [
+        "Cesaret ve adalet",
+        "Empati ve koruyuculuk",
+        "Eylem odaklılık",
+        "Toplumsal sorumluluk"
+      ],
+      "super_gucler": [
+        "Adalet Savaşçısı: Haksızlığa karşı cesurca mücadele ederler",
+        "Koruyucu Lider: Zayıfları koruyup güçlendiririler",
+        "Harekete Geçirici: İnsanları ortak bir amaç için birleştirirler"
+      ],
+      "kriptonitin": [
+        "Adaletsiz ve kayırmacı sistemler",
+        "Pasif ve kayıtsız ortamlar",
+        "Bireyci ve rekabetçi kültürler"
+      ],
+      "ideal_alanlar": [
+        "Sosyal Girişimci",
+        "Aktivist / STK Çalışanı",
+        "Avukat (İnsan Hakları)",
+        "Gazeteci (Araştırmacı)",
+        "Toplum Organizatörü"
+      ]
+    },
+    {
+      "kod": "D+C",
+      "isim": "Yıkıcı Yenilikçiler (Disruptors)",
+      "baskin_fitrat": "aksiyon",
+      "yardimci_fitrat": "mana",
+      "kisa_aciklama": "Sadece fiziksel değil, fikri sınırları da zorlarlar. Durmayı reddeden, köhne sistemleri yıkan sınır tanımaz ruhlardır.",
+      "ozellikler": [
+        "Radikal yenilikçilik",
+        "Cesaret ve risk alma",
+        "Vizyon sahibi",
+        "Sınır tanımaz"
+      ],
+      "super_gucler": [
+        "Yıkıcı İnovasyon: Eski sistemleri yıkıp yeni düzenler kurarlar",
+        "Sınır Tanımaz Vizyon: İmkansızı mümkün kılarlar",
+        "Hızlı Dönüşüm: Fikirleri anında eyleme dönüştürürler"
+      ],
+      "kriptonitin": [
+        "Gelenekçi ve değişime kapalı ortamlar",
+        "Aşırı bürokratik sistemler",
+        "Risk almayı engelleyen kurallar"
+      ],
+      "ideal_alanlar": [
+        "Start-up Kurucusu",
+        "Radikal Tasarımcı",
+        "Teknoloji Girişimcisi",
+        "Deneysel Sanatçı",
+        "Sosyal İnovasyon Lideri"
+      ]
+    }
+  ]
+}
