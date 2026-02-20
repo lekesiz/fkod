@@ -7,6 +7,8 @@ import mentorRoutes from './routes/mentorRoutes.js';
 import messageRoutes from './routes/messageRoutes.js';
 import courseRoutes from './routes/courseRoutes.js';
 import certificateRoutes from './routes/certificateRoutes.js';
+import communityRoutes from './routes/communityRoutes.js';
+import eventRoutes from './routes/eventRoutes.js';
 
 dotenv.config();
 
@@ -28,6 +30,8 @@ app.use('/api/mentors', mentorRoutes);
 app.use('/api/messages', messageRoutes);
 app.use('/api/courses', courseRoutes);
 app.use('/api/certificates', certificateRoutes);
+app.use('/api/community', communityRoutes);
+app.use('/api/events', eventRoutes);
 
 // Health check
 app.get('/health', (req, res) => {
