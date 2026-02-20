@@ -1,4 +1,4 @@
-# F-KÖD WEBAPP PROJESİ - DEVOPS/SİSTEM YÖNETİCİSİ TODO LİSTESİ
+# F-KOD WEBAPP PROJESİ - DEVOPS/SİSTEM YÖNETİCİSİ TODO LİSTESİ
 
 ## 📋 Rol Özeti
 **Rol:** DevOps / Sistem Yöneticisi  

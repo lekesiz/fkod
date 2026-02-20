@@ -1,4 +1,4 @@
-# F-KÖD (Fıtrat Kodları) Projesi
+# F-KOD (Fıtrat Kodları) Projesi
 
 ## 🎯 Proje Hakkında
 

@@ -1,4 +1,4 @@
-# F-KÖD Projesi: WebApp Tarafı Görev Dağılımı Raporu
+# F-KOD Projesi: WebApp Tarafı Görev Dağılımı Raporu
 
 ## Proje Özeti
 

@@ -23,7 +23,7 @@ Kullanıcı Yaşı: {USER_AGE}
 
 ### 1. Başlık Sayfası
 ```
-F-KÖD FİTRAT KEŞİF RAPORU
+F-KOD FİTRAT KEŞİF RAPORU
 {USER_NAME} için Özel Hazırlanan Rapor
 Tarih: {DATE}
 Arketip: {ARCHETYPE_NAME}

@@ -1,4 +1,4 @@
-# F-KÖD WEBAPP PROJESİ - UX/UI TASARIMCI TODO LİSTESİ
+# F-KOD WEBAPP PROJESİ - UX/UI TASARIMCI TODO LİSTESİ
 
 ## 📋 Rol Özeti
 **Rol:** UX/UI Tasarımcı  

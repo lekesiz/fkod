@@ -94,7 +94,7 @@ F-Kod, 14-24 yaş arası gençlerin kendi fıtratlarını (doğal yeteneklerini 
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│              F-KÖD MVP ARKİTEKTÜRÜ                 │
+│              F-KOD MVP ARKİTEKTÜRÜ                 │
 ├─────────────────────────────────────────────────────┤
 │                                                     │
 │  Frontend:                                          │

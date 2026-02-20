@@ -4,7 +4,7 @@
 
 ```
 ═══════════════════════════════════════════════════════════════
-                    F-KÖD FİTRAT KEŞİF RAPORU
+                    F-KOD FİTRAT KEŞİF RAPORU
                     
                     {USER_NAME} için Özel Hazırlanan Rapor
                     

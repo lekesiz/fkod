@@ -1,4 +1,4 @@
-# F-KÖD WEBAPP PROJESİ - FRONTEND GELİŞTİRİCİ TODO LİSTESİ
+# F-KOD WEBAPP PROJESİ - FRONTEND GELİŞTİRİCİ TODO LİSTESİ
 
 ## 📋 Rol Özeti
 **Rol:** Frontend Geliştirici  

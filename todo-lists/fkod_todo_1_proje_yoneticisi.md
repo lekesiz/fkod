@@ -1,4 +1,4 @@
-# F-KÖD WEBAPP PROJESİ - PROJE YÖNETİCİSİ TODO LİSTESİ
+# F-KOD WEBAPP PROJESİ - PROJE YÖNETİCİSİ TODO LİSTESİ
 
 ## 📋 Proje Özeti
 **Proje Adı:** F-Kod (Fıtrat Kodları) - Gençlerin Fıtrat Keşif Platformu  

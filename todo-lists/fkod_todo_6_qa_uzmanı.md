@@ -1,4 +1,4 @@
-# F-KÖD WEBAPP PROJESİ - QA UZMANLIĞI TODO LİSTESİ
+# F-KOD WEBAPP PROJESİ - QA UZMANLIĞI TODO LİSTESİ
 
 ## 📋 Rol Özeti
 **Rol:** QA (Kalite Güvence) Uzmanı  

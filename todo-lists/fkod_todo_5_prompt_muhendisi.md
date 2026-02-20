@@ -1,4 +1,4 @@
-# F-KÖD WEBAPP PROJESİ - PROMPT MÜHENDİSİ TODO LİSTESİ
+# F-KOD WEBAPP PROJESİ - PROMPT MÜHENDİSİ TODO LİSTESİ
 
 ## 📋 Rol Özeti
 **Rol:** Prompt Mühendisi / Yapay Zeka Uzmanı  

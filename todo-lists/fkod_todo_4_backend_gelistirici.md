@@ -1,4 +1,4 @@
-# F-KÖD WEBAPP PROJESİ - BACKEND GELİŞTİRİCİ TODO LİSTESİ
+# F-KOD WEBAPP PROJESİ - BACKEND GELİŞTİRİCİ TODO LİSTESİ
 
 ## 📋 Rol Özeti
 **Rol:** Backend Geliştirici  
@@ -263,7 +263,7 @@
   ```javascript
   const PDFDocument = require('pdfkit');
   const doc = new PDFDocument();
-  doc.fontSize(25).text('F-KÖD PUSULAN ÇÖZÜLDÜ!');
+  doc.fontSize(25).text('F-KOD PUSULAN ÇÖZÜLDÜ!');
   doc.fontSize(12).text(reportText);
   ```
 - [ ] PDF oluşturma ve gönderme
