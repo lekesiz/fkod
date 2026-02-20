@@ -5,6 +5,8 @@ import authRoutes from './routes/authRoutes.js';
 import userRoutes from './routes/userRoutes.js';
 import mentorRoutes from './routes/mentorRoutes.js';
 import messageRoutes from './routes/messageRoutes.js';
+import courseRoutes from './routes/courseRoutes.js';
+import certificateRoutes from './routes/certificateRoutes.js';
 
 dotenv.config();
 
@@ -24,6 +26,8 @@ app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/mentors', mentorRoutes);
 app.use('/api/messages', messageRoutes);
+app.use('/api/courses', courseRoutes);
+app.use('/api/certificates', certificateRoutes);
 
 // Health check
 app.get('/health', (req, res) => {
